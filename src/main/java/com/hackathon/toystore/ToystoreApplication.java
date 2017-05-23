@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ToystoreApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ToystoreApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ToystoreApplication.class, args);
+    }
+
 }
