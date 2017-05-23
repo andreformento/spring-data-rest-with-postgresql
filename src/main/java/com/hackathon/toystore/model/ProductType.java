@@ -5,7 +5,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
@@ -14,15 +17,12 @@ import java.io.Serializable;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Product implements Serializable {
+public class ProductType implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @NotNull
-    private String description;
-    @NotNull
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    private ProductType productType;
+    private String name;
 
 }

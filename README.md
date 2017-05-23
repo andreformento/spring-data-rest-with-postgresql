@@ -2,6 +2,7 @@
 
 ### References:
 - http://mrbool.com/rest-server-with-spring-data-spring-boot-and-postgresql/34023
+- https://en.wikibooks.org/wiki/Java_Persistence/ManyToOne#Example_of_a_ManyToOne_relationship_annotations
 
 ### How to use
 *Gradle is required.*
@@ -13,7 +14,7 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=1 -d -p 5432:5432 postgres
 gradle bootRun
 ```
 
-### Postgres
+### Postgres details
 To run postgres
 
 ```
@@ -28,3 +29,6 @@ psql -U postgres
 CREATE DATABASE mytest;
 \q
 ```
+
+### Requests
+- `GET http://localhost:8080/productTypes/search/findByName?name=type one`
