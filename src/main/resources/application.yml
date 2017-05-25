@@ -3,7 +3,7 @@ spring.data.rest:
   returnBodyOnUpdate: true
 
 logging.level: INFO
-
+logging.level.org.hibernate.type.descriptor.sql: trace
 
 spring:
   jpa:
