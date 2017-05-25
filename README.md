@@ -26,7 +26,7 @@ docker exec -it some-postgres bash
 
 psql -U postgres
 
-CREATE DATABASE mytest;
+CREATE DATABASE toystore;
 \q
 ```
 
