@@ -1,0 +1,152 @@
+{
+  "_embedded": {
+    "products": [
+      {
+        "description": "747 8",
+        "price": 351.4,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/1"
+          },
+          "product": {
+            "href": "http://localhost/products/1"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/1/productBrand"
+          }
+        }
+      },
+      {
+        "description": "777 300ER",
+        "price": 315.0,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/2"
+          },
+          "product": {
+            "href": "http://localhost/products/2"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/2/productBrand"
+          }
+        }
+      },
+      {
+        "description": "737 600",
+        "price": 57.0,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/3"
+          },
+          "product": {
+            "href": "http://localhost/products/3"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/3/productBrand"
+          }
+        }
+      },
+      {
+        "description": "A330-200",
+        "price": 231.5,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/4"
+          },
+          "product": {
+            "href": "http://localhost/products/4"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/4/productBrand"
+          }
+        }
+      },
+      {
+        "description": "A319",
+        "price": 89.6,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/5"
+          },
+          "product": {
+            "href": "http://localhost/products/5"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/5/productBrand"
+          }
+        }
+      },
+      {
+        "description": "A320neo",
+        "price": 107.3,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/6"
+          },
+          "product": {
+            "href": "http://localhost/products/6"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/6/productBrand"
+          }
+        }
+      },
+      {
+        "description": "E-175",
+        "price": 45.0,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/7"
+          },
+          "product": {
+            "href": "http://localhost/products/7"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/7/productBrand"
+          }
+        }
+      },
+      {
+        "description": "E-190",
+        "price": 49.8,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/8"
+          },
+          "product": {
+            "href": "http://localhost/products/8"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/8/productBrand"
+          }
+        }
+      },
+      {
+        "description": "E-195",
+        "price": 52.7,
+        "_links": {
+          "self": {
+            "href": "http://localhost/products/9"
+          },
+          "product": {
+            "href": "http://localhost/products/9"
+          },
+          "productBrand": {
+            "href": "http://localhost/products/9/productBrand"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/products"
+    },
+    "profile": {
+      "href": "http://localhost/profile/products"
+    },
+    "search": {
+      "href": "http://localhost/products/search"
+    }
+  }
+}

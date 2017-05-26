@@ -1,0 +1,15 @@
+{
+  "description": "747 8",
+  "price": 351.4,
+  "_links": {
+    "self": {
+      "href": "http://localhost/products/1"
+    },
+    "product": {
+      "href": "http://localhost/products/1"
+    },
+    "productBrand": {
+      "href": "http://localhost/products/1/productBrand"
+    }
+  }
+}

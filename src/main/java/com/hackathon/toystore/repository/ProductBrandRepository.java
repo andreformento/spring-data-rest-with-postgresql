@@ -1,13 +1,13 @@
 package com.hackathon.toystore.repository;
 
-import com.hackathon.toystore.model.ProductType;
+import com.hackathon.toystore.model.ProductBrand;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
-public interface ProductTypeRepository extends CrudRepository<ProductType, Long> {
+public interface ProductBrandRepository extends CrudRepository<ProductBrand, Long> {
 
-    Iterable<ProductType> findByName(@Param("name") final String name);
+    Iterable<ProductBrand> findByName(@Param("name") final String name);
 
 }

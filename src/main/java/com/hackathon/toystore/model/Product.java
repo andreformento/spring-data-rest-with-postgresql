@@ -1,5 +1,6 @@
 package com.hackathon.toystore.model;
 
+import java.math.BigDecimal;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -24,6 +25,12 @@ public class Product implements Serializable {
     private String description;
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    private ProductType productType;
+    private ProductBrand productBrand;
+    private BigDecimal price;
 
+    public Product(String description, ProductBrand productBrand, BigDecimal price) {
+        this.description = description;
+        this.productBrand = productBrand;
+        this.price = price;
+    }
 }

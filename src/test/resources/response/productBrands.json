@@ -1,0 +1,50 @@
+{
+  "_embedded": {
+    "productBrands": [
+      {
+        "name": "Boeing",
+        "_links": {
+          "self": {
+            "href": "http://localhost/productBrands/1"
+          },
+          "productBrand": {
+            "href": "http://localhost/productBrands/1"
+          }
+        }
+      },
+      {
+        "name": "Airbus",
+        "_links": {
+          "self": {
+            "href": "http://localhost/productBrands/2"
+          },
+          "productBrand": {
+            "href": "http://localhost/productBrands/2"
+          }
+        }
+      },
+      {
+        "name": "Embraer",
+        "_links": {
+          "self": {
+            "href": "http://localhost/productBrands/3"
+          },
+          "productBrand": {
+            "href": "http://localhost/productBrands/3"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/productBrands"
+    },
+    "profile": {
+      "href": "http://localhost/profile/productBrands"
+    },
+    "search": {
+      "href": "http://localhost/productBrands/search"
+    }
+  }
+}

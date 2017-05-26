@@ -31,4 +31,4 @@ CREATE DATABASE toystore;
 ```
 
 ### Requests
-- `GET http://localhost:8080/productTypes/search/findByName?name=type one`
+- `GET http://localhost:8080/productBrands/search/findByName?name=type one`
